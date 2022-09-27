@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+#sidebar{
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	left: -30%;
+	background-color:black;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background-color:orange; 
+}
+
+
+#sidebar ul li{
+		
+	font-size: 25px;
+	padding: 30px;
+	border-bottom:1px solid gray; 
+    text-align: center;
+    text-decoration-line: none;
+}
+
+#sidebar ul li a{
+    text-decoration: none; 
+   color: white;
+}
+
+.toggle-btn{
+	position: absolute;
+	left: 105%;
+	top: 15px;
+}
+.toggle-btn span{
+	display: block;
+	background-color: black;
+	width: 30px;
+	height: 5px;
+	margin: 3px;
+}
+
+#sidebar.active{
+	left: 0;
+}
+
+h1{
+	font-size:45px;
+	margin-top: 10px;
+	text-align: center; 
+	font-family: Britannic Bold;
+
+}
+
+.legends{
+	margin-top: 20px;
+	width: 100%;
+	padding: 0px;
+	background-color: 
+}
+.one img{
+	float: left;
+	width: 290px;
+	height: 240px;
+	margin-left: 10px;
+}
+.text1{
+	text-align: justify;
+	font-family: Bookman Old Style;
+	line-height: 40px;
+	font-size: 23px;
+	margin-left: 320px; 
+	margin-right: 10px;
+
+}
+
+
+.two img{
+	float: right;
+	width: 290px;
+	height: 230px;
+	margin-right: 10px;
+}
+.text2{
+	text-align: justify;
+	font-family: Bookman Old Style;
+	line-height: 40px;
+	font-size: 23px;
+	margin-right: 320px; 
+	margin-left: 10px;
+
+}
+
+
+.three img{
+	float: left;
+	width: 290px;
+	height: 220px;
+	margin-left: 10px;
+}
+.text3{
+	text-align: justify;
+	font-family: Bookman Old Style;
+	line-height: 40px;
+	font-size: 23px;
+	margin-left: 320px; 
+	margin-right: 10px;
+
+}
+
+
+.four img{
+	float: right;
+	width: 290px;
+	height: 240px;
+	margin-right: 10px;
+}
+.text4{
+	text-align: justify;
+	font-family: Bookman Old Style;
+	line-height: 40px;
+	font-size: 23px;
+	margin-right: 320px; 
+	margin-left: 10px;
+}
+
+
+.five img{
+	float: left;
+	width: 290px;
+	height: 230px;
+	margin-left: 10px;
+}
+.text5{
+	text-align: justify;
+	font-family: Bookman Old Style;
+	line-height: 40px;
+	font-size: 23px;
+	margin-left: 320px; 
+	margin-right: 10px;
+}
+
+
+.six img{
+	float: right;
+	width: 290px;
+	height: 240px;
+	margin-right: 10px;
+}
+.text6{
+	text-align: justify;
+	font-family: Bookman Old Style;
+	line-height: 40px;
+	font-size: 23px;
+	margin-right: 320px; 
+	margin-left: 10px;
+}

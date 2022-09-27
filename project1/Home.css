@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar{
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	left: -30%;
+	background-color:black;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background-color: orange; 
+}
+
+
+#sidebar ul li{
+		
+	font-size: 25px;
+	padding: 30px;
+	border-bottom:1px solid gray; 
+    text-align: center;
+    text-decoration-line: none;
+}
+
+#sidebar ul li a{
+    text-decoration: none; 
+   color: white;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background-color: ;
+	border-radius: 1px;
+}
+
+.toggle-btn{
+	position: absolute;
+	left: 105%;
+	top: 15px;
+}
+.toggle-btn span{
+	display: block;
+	background-color: black;
+	width: 30px;
+	height: 5px;
+	margin: 3px;
+}
+
+#sidebar.active{
+	left: 0;
+}
+
+dt{
+	text-align:center;
+	font-size: 45px;
+
+}
+dd{
+	font-size: 25px;
+	margin-top: 20px;
+	text-indent: 100px;
+	margin-left: 20px;
+	margin-right: 350px;
+	font-family:Euphemia;
+}
+.info{
+	margin-left: 25px;
+	margin-right: 350px;
+}
+
+.info p{
+	margin-top: 15px;
+	font-size: 25px;
+	font-family:Euphemia;
+	
+}
+
+aside{
+	width:20%;
+	padding-left: 20px;
+	float:right;
+	background-color: gray;
+}
+ul{
+	list-style-type: square;
+	font-size: 25px;
+	font-family:Euphemia;
+}
+ul li{
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration-line: underline;
+}
+
+
+img{
+	height:180px;
+	width: 290px;
+}

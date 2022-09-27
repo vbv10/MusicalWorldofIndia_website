@@ -1,0 +1,72 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.image{
+	background:url(https://cdn.wallpapersafari.com/48/11/uRFcp7.jpeg);
+	height:750px;
+    width:1600px;
+    
+	
+}
+.navbar{
+	height: 70px;
+	width: 100%;
+	background-color: deepskyblue;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+
+}
+.navbar ul li{
+
+	margin:0 40px;
+	display: inline-block;
+	line-height: 40px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-family: Tahoma;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background-color:;
+	border-radius: 2px;
+}
+
+.image .left{
+	position: left;
+	font-family:none;
+	top: 40%;
+	left: 0%; 
+}
+
+.left h5{
+	color: white;
+	margin-top:80px;
+	margin-left: 10px;
+	font-size:50;
+	text-align:left;
+	font-family:Algerian ;
+
+}
+.left h2{
+	color: white;
+	margin-top:0.000001px;
+	margin-left: 10px;
+	text-align:left;
+	font-size:50;
+	font-family:Algerian ;
+}
+.left h1{
+	color: white;
+	margin-top:3px; 
+	margin-left: 10px;
+	text-align: left;
+	font-size:160 ;
+	font-family: Algerian ;
+}
