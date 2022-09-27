@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style type="text/css">
+	table,th,td{
+		border:solid  1px;
+		border-spacing: 0;
+		font-size:20px ;
+	}
+	table{
+		width: 100%;
+	}
+	th{
+		height: 80px;
+		font-family: Gungsuh;
+		background-color: slateblue;
+	}
+
+	img{
+		height: 100px;
+		width: 200px;
+	}
+
+	*{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar{
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	left: -30%;
+	background-color:black;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background-color: orange; 
+}
+
+
+#sidebar ul li{
+		
+	font-size: 30px;
+	padding: 30px;
+	border-bottom:1px solid gray; 
+    text-align: center;
+}
+
+#sidebar ul li a{
+    text-decoration: none; 
+   color: white;
+}
+
+
+.toggle-btn{
+	position: absolute;
+	left: 105%;
+	top: 15px;
+}
+.toggle-btn span{
+	display: block;
+	background-color: black;
+	width: 30px;
+	height: 5px;
+	margin: 3px;
+}
+
+#sidebar.active{
+	left: 0;
+}
+
+head{
+	text-align:center;
+	font-size: 45px;
+    font-size: 25px;
+	margin-top: 20px;
+	text-indent: 100px;
+	margin-left: 20px;
+	margin-right: 350px;
+	font-family:Euphemia;
+}
+
+h1{
+	text-align: center;
+	margin-top: 20px;
+}
+</style>
+<body>
+	<script type="text/javascript">
+			function togglemenu(){
+				document.getElementById('sidebar').classList.toggle('active');
+		}
+	</script>
+</head>
+    <nav class="navbar">	
+	<div id="sidebar">
+		
+		<div class="toggle-btn" onclick="togglemenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+			
+			<ul>
+			<li><a href="Home.html">Culture of India</a></li>
+			<li><a href="Types of Indian Music.html">Types of Indian Musical History</a></li>
+			<li><a href="Indian Musical Instrument.html">Indian Musical Instrument</a></li>
+          	<li><a href="Key contributors.html">Key Contributors</a></li>				
+			</ul>
+</nav>
+
+
+</head>
+
+	<table>
+		<tr>
+			<th >Image</th>
+			<th >Year</th>
+			<th >Category</th>
+			<th >Nominated Work</th>
+		</tr>
+
+<section>
+	
+		<tr>
+			<td rowspan="4"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ravi_Shankar_2009_crop.jpg/220px-Ravi_Shankar_2009_crop.jpg"></td>
+			<td>1968</td>
+			<td>Best Chamber Music Performance</td>
+			<td>West Meets East</td>
+		</tr>
+
+		<tr>
+			<td>1973</td>
+			<td>Album of the Year</td>
+			<td>The Concert for Bangladesh</td>
+		</tr>
+		
+		<tr>
+			<td>2002</td>
+			<td>Best World Music Album</td>
+			<td>Full Circle:Carnegie Hall 2000</td>
+		</tr>
+
+		<tr>
+			<td>2013</td>
+			<td>Life Time Achievement Award</td>
+			<td>Honorary</td>
+		</tr>
+
+		<tr>
+			<td><font>Ravi Shankar</font></td>
+			<td>2013</td>
+			<td>Best World Music Album</td>
+			<td>The Living Room Sessions Pt. 1</td>
+		</tr>
+</section>
+
+<section>
+	
+		<tr>
+			<td rowspan="4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-azh2XpeY4GVgFFxos2_nwLEk0xJj1X_6rA&usqp=CAU">
+				</td>
+			<td>1981</td>
+			<td>Best Classical Performance-Instrumental Soloist<br>or Soloist(with orchestra)</td>
+			<td>Isaac Stern 60th anniversary celebration</td>
+		</tr>
+
+		<tr>
+            <td>1981</td>
+			<td>Best Engineered Recording, Classical</td>
+			<td>Isaac Stern 60th anniversary celebration</td>
+		</tr>
+
+		<tr>
+            <td>1982</td>
+			<td>Best Classical Vocal Soloist Performance</td>
+			<td>Verdi: Arias (Leontyne Price Sings Verdi)</td>
+		</tr>
+
+		<tr>
+            <td>1990</td>
+			<td>Best Classical Performance, Instrumental Soloist (With Orchestra)</td>
+			<td>Shostakovich: Violin Concerto No. 1 In A Minor/Glazunov: Violin Concerto In A Minor</td>
+		</tr>
+
+		<tr>
+			<td><font>Zubin Mehta</font></td>
+            <td>1990</td>
+			<td>Best Classical Vocal Performance</td>
+			<td>Carreras, Domingo, Pavarotti In Concert</td>
+		</tr>
+</section>
+
+<section>
+		<tr>
+			<td rowspan="1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe3UWPtVcA42C1F7HxVpx-recB621AhDL9zQ&usqp=CAU"></td>
+			<td>2008</td>
+			<td>Best Compilation Soundtrack Album</td>
+			<td>Slumdog Millionaire</td>
+		</tr>	
+
+		<tr>
+			<td><font>A.R.Rahman</font></td>
+            <td>2008</td>
+			<td>Best Song Written for Visual Media</td>
+			<td>Slumdog Millionaire</td>
+		</tr>	
+</section>
+
+<section>
+		<tr>
+			<td rowspan="1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqzbbwsGL08Kv8KIqcD3bJsrcpDQRPClqgwA&usqp=CAU"></td>
+			<td>2008</td>
+			<td>Best Contemporary World Music Album</td>
+			<td>Global Drum Project</td>
+		</tr>
+		<tr>
+			<td colspan="4"><font>Zakir Hussain</font></td>
+			
+		</tr>	
+</section>
+
+<section>
+		<tr>
+			<td rowspan="1"><img src="https://images.indianexpress.com/2014/02/zakir1.jpg?w=630"></td>
+			<td>1991 (2 musicians)	</td>
+			<td>Best World Music Album</td>
+			<td>Planet Drum</td>
+		</tr>	
+		<tr>
+		<td colspan="4"><font>T.H.Vinayakram & Zakir Hussain</font></td>
+		</tr>
+</section>
+
+<section>
+		<tr>
+			<td rowspan="1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNmZiQZhmcMabM7KKj0bQ8gNHK0ZbAFp4fag&usqp=CAU"></td>
+			<td>1992</td>
+			<td>Best World Music Album</td>
+			<td>Planet Drum</td>
+		</tr>
+		<tr>
+		<td colspan="4"><font>Vishwa Mohan Bhatt</font></td>
+		</tr>	
+</section>
+
+<section>
+		<tr>
+			<td rowspan="1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx6ZuqORyvxjZ-bfNQGqbogQ2Es2VGfno7A&usqp=CAU"></td>
+			<td>2015</td>
+			<td>Best New Age Album</td>
+			<td>Winds of Samsara</td>
+		</tr>	
+		<tr>
+			<td colspan="4"><font>Rickey Kej</font></td>
+		</tr>
+</section>
+
+<section>
+		<tr>
+			<td rowspan="1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsVgejsuy3FXru69LwKHS1rdNfWAPah62Yg&usqp=CAU"></td>
+			<td>2015</td>
+			<td>Best Children's Album</td>
+			<td>I Am Malala</td>
+		</tr>	
+		<tr>
+		<td colspan="4"><font>Neela Vaswani</font></td>
+		</tr>
+</section>
+	</table>
+
+</body>
+</html>

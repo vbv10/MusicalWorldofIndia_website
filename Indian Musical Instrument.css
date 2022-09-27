@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar{
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	left: -30%;
+	background-color:black;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background-color: orange; 
+}
+
+
+#sidebar ul li{
+		
+	font-size: 25px;
+	padding: 30px;
+	border-bottom:1px solid gray; 
+    text-align: center;
+    text-decoration-line: none;
+}
+
+#sidebar ul li a{
+    text-decoration: none; 
+   color: white;
+}
+
+
+.toggle-btn{
+	position: absolute;
+	left: 105%;
+	top: 15px;
+}
+.toggle-btn span{
+	display: block;
+	background-color: black;
+	width: 30px;
+	height: 5px;
+	margin: 3px;
+}
+
+#sidebar.active{
+	left: 0;
+}
+
+
+h1{
+	text-align: center;
+	margin-top: 10px;
+	font-family:Britannic Bold ;
+	font-size: 45px;
+}
+
+
+p{
+	margin-top: 20px;
+	margin-left:10%;
+	margin-right:10%;
+	text-align: left;
+	font-size: 27px;
+	font-family: Euphemia;
+	word-spacing:1px;
+	line-height:50px;
+}
+
+summary{
+	font-size: 30px;
+	font-style: bold;
+	margin-left: 10%;
+	text-decoration-line: underline;
+}
+
+.images{
+	max-width: 1200px;
+	margin-left:130px;
+
+}
+.gallery{
+	margin: 25px;
+	border: 1px solid gray;
+	float:left;
+	width: 225px;
+}
+.gallery img{
+	width: 225px;
+	height:200px;
+}
+
+.details{
+	padding:10px;
+	font-size:20px;
+	font-family:Euphemia ;
+	text-align: center;
+}
